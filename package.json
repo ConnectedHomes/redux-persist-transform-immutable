@@ -1,6 +1,6 @@
 {
-  "name": "redux-persist-transform-immutable",
-  "version": "5.0.0",
+  "name": "@connected-home/redux-persist-transform-immutable",
+  "version": "6.0.0",
   "description": "immutable.js transform for redux-persist",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rt2zz/redux-persist-transform-immutable.git"
+    "url": "https://github.com/ConnectedHomes/redux-persist-transform-immutable.git"
   },
   "keywords": [
     "redux",
@@ -23,7 +23,7 @@
     "redux-persist-transform",
     "compression"
   ],
-  "homepage": "https://github.com/rt2zz/redux-persist-transform-immutable",
-  "author": "rt2zz <zack@root-two.com>",
+  "homepage": "https://github.com/ConnectedHomes/redux-persist-transform-immutable",
+  "author": "ConnectedHomes",
   "license": "MIT"
 }

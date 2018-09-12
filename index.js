@@ -7,5 +7,11 @@ module.exports = function (config) {
 
   var serializer =  Serialize.immutable(Immutable, config.records)
 
-  return reduxPersist.createTransform(serializer.stringify, serializer.parse, config)
+  return reduxPersist.createTransform(
+    serializer.stringify,
+    (data, key, state) => {
+      const serialised = typeof data === 'object' ? JSON.stringify(data) : data;
+      return serializer.parse(serialised, key, state);
+  }, 
+  config);
 }
