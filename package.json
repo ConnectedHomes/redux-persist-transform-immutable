@@ -1,6 +1,6 @@
 {
   "name": "@connected-home/redux-persist-transform-immutable",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "immutable.js transform for redux-persist",
   "main": "index.js",
   "scripts": {
