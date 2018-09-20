@@ -1,6 +1,6 @@
 {
   "name": "@connected-home/redux-persist-transform-immutable",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "immutable.js transform for redux-persist",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "remotedev-serialize": "^0.1.0"
   },
   "peerDependencies": {
-    "redux-persist": "^4.0.0",
+    "@connected-home/redux-persist": "^6.0.1",
     "immutable": ">= 3"
   },
   "repository": {

@@ -1,6 +1,6 @@
 var Immutable = require('immutable')
 var Serialize = require('remotedev-serialize')
-var reduxPersist = require('redux-persist')
+var reduxPersist = require('@connected-home/redux-persist')
 
 module.exports = function (config) {
   config = config || {}
